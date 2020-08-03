@@ -1,0 +1,19 @@
+.navigation {
+    &__background-color {
+        background-color: $eerie-black;
+    }
+    &__item {
+        color: $white;
+        font-size: 1em;
+        margin: 0;
+        text-align: center;
+        -webkit-transition: font-size .5s ease;
+        -moz-transition: font-size .5s ease;
+        -o-transition: font-size .5s ease;
+        transition: font-size .5s ease;
+    }
+}
+
+.navigation__item:hover {
+    color: red;
+}

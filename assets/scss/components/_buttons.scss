@@ -1,0 +1,20 @@
+.button {
+    background-color: $nickel;
+    color: $white;
+    height: 3.1875rem;
+    border: none;
+    &_size-s {
+        width: 7.1875rem;
+    }
+    &_size-m {
+        width: 11.375rem;
+    }
+    &_button_state-hover {
+         :hover {
+            background-color: $platinum;
+        }
+    }
+    &_button_state-focus {
+        border: 1px solid $light-gray;
+    }
+}

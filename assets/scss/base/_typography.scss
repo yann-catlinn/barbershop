@@ -1,0 +1,53 @@
+/* Base Typography*/
+
+//nav links and  button
+a.nav-link,
+button {
+    font-family: $roboto;
+    font-weight: $primary-font-regular;
+    font-size: $medium;
+}
+
+//title
+h1,
+h5 {
+    font-family: $playfair;
+    font-weight: $secondary-font-black-italic;
+}
+
+h1 {
+    font-size: $xx-large;
+}
+
+h5 {
+    font-size: $x-large;
+}
+
+//date
+p.article__date {
+    font-family: $playfair;
+    font-weight: $secondary-font-regular;
+    font-size: $large;
+}
+
+// paragraphs article
+p.article__paragraph {
+    font-family: $roboto;
+    font-weight: $primary-font-light;
+    font-size: $medium;
+}
+
+// author  description paragraph
+div.author__description p,
+li.page-item {
+    font-family: $roboto;
+    font-weight: $primary-font-regular;
+    font-size: $medium;
+}
+
+//links
+div.author__description a {
+    font-family: $roboto;
+    font-weight: $primary-font-light;
+    font-size: $linkSize;
+}

@@ -1,0 +1,21 @@
+article {
+    text-align: left;
+}
+
+.article__title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.article__down {
+    display: inline-block;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    color: $white;
+}

@@ -1,0 +1,12 @@
+.thumbnail {
+    //mobile
+    &_size-s {
+        width: 8.1875rem;
+        height: 8.3125rem;
+    }
+    //laptop
+    &_size-normal {
+        width: 8.75rem;
+        height: 8.875rem;
+    }
+}

@@ -1,0 +1,41 @@
+//Google Font: Playfair-Display (Regular, Black Italic)/ Roboto (Light, Regular)
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap');
+// Color Scheme
+// First Color Scheme
+$white: #FFF;
+$platinum: #E6E7E7;
+$light-gray: #D1D1D1;
+// Second Color Scheme
+$fuzzy-wuzzy: #E56353;
+$ruddy-pink: #D76C69;
+$spanish-pink: #ECBCBA;
+//Third Color Scheme
+$eerie-black: #121619;
+$raisin-black: #222323;
+$nickel: #6C6E70;
+// Tipography
+// font family and font weights
+$roboto: 'Roboto',
+sans-serif;
+$roboto-light: 300;
+$roboto-regular: 400;
+//
+$playfair: 'Playfair Display',
+serif;
+$playfair-regular: 400;
+$playfair-black-italic: 900;
+//
+$primary-font: $roboto;
+$primary-font-light: $roboto-light;
+$primary-font-regular: $roboto-regular;
+//
+$secondary-font: $playfair;
+$secondary-font-regular: $playfair-regular;
+$secondary-font-black-italic: $playfair-black-italic;
+// Font Sizes
+$xx-large: 4.375rem;
+$x-large: 1.875rem;
+$large: 1.125rem;
+$medium: 1rem;
+$small: 0.75rem;
+$linkSize: 1.25rem;

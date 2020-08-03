@@ -1,0 +1,17 @@
+ul.pagination {
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 2.5rem;
+}
+
+div.pagination nav {
+    border-radius: 40px;
+}
+
+span.page-link {
+    background-color: $nickel !important;
+    border-color: $light-gray !important;
+}
